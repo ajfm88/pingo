@@ -3,6 +3,7 @@ mod crypto;
 mod discovery;
 mod signaling;
 mod file_server;
+mod file_transfer;
 
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
 pub fn run() {
